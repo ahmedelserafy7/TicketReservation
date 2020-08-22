@@ -19,11 +19,14 @@ class HomeCell: UICollectionViewCell {
         return iv
     }()
     
-    let titleLabel: UILabel = {
+    let subtitleLabel: UILabel = {
         let label = UILabel()
         label.text = "I was wondering Is anyone supposed to look up my own cake?"
+        label.textColor = .white
         label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 11)
+        label.font = UIFont.systemFont(ofSize: 19)
+        label.numberOfLines = 0
+        label.backgroundColor = UIColor(white: 0.1, alpha: 0.2)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -40,14 +43,14 @@ class HomeCell: UICollectionViewCell {
             imageView.topAnchor.constraint(equalTo: topAnchor, constant: 8),
             imageView.leftAnchor.constraint(equalTo: leftAnchor),
             imageView.widthAnchor.constraint(equalToConstant: 340),
-            imageView.heightAnchor.constraint(equalToConstant: 440)
+            imageView.heightAnchor.constraint(equalToConstant: 450)
         ])
         
-        addSubview(titleLabel)
+        addSubview(subtitleLabel)
         NSLayoutConstraint.activate([
-            titleLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 6),
-            titleLabel.leftAnchor.constraint(equalTo: imageView.leftAnchor),
-            titleLabel.rightAnchor.constraint(equalTo: imageView.rightAnchor)
+            subtitleLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: -64),
+            subtitleLabel.leftAnchor.constraint(equalTo: imageView.leftAnchor),
+            subtitleLabel.rightAnchor.constraint(equalTo: imageView.rightAnchor)
         ])
     }
     

@@ -119,6 +119,4 @@ class CalendarPopUp: NSObject {
             self.homeController?.timeButton.setImage( #imageLiteral(resourceName: "down_arrow").withRenderingMode(.alwaysTemplate), for: .normal)
         }, completion: nil)
     }
-    
-    override init() {}
 }
