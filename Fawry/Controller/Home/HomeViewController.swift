@@ -178,3 +178,9 @@ class HomeViewController: UIViewController {
         setupDropDownButton()
     }
 }
+
+extension HomeViewController: HomeDelegate {
+    func setTitle(name: String) {
+        priceLabel.text = name
+    }
+}

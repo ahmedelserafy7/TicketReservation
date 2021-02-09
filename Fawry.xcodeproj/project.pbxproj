@@ -150,13 +150,45 @@
 		1608981924E951CE0006BCC3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1627CC2B24EEDDDA00D31F0A /* CustomTabBarController.swift */,
-				160897E924E2C2830006BCC3 /* HomeViewController.swift */,
-				1627CC2D24EF147E00D31F0A /* HomeViewController+Extensions.swift */,
-				1627CC3824EF1C9200D31F0A /* HomeViewController+NavBarExtensions.swift */,
-				1627CC3624EF1C3C00D31F0A /* HomeViewController+DropDownExtensions.swift */,
+				161C30A525D32D62000D3B2D /* TabBar */,
+				161C30A625D32D7A000D3B2D /* NavBar */,
+				161C30A725D32DAE000D3B2D /* Home */,
+				161C30A825D32DBD000D3B2D /* Venues */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		161C30A525D32D62000D3B2D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1627CC2B24EEDDDA00D31F0A /* CustomTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		161C30A625D32D7A000D3B2D /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				1627CC3824EF1C9200D31F0A /* HomeViewController+NavBarExtensions.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		161C30A725D32DAE000D3B2D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				160897E924E2C2830006BCC3 /* HomeViewController.swift */,
+				1627CC2D24EF147E00D31F0A /* HomeViewController+Extensions.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		161C30A825D32DBD000D3B2D /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				1627CC3624EF1C3C00D31F0A /* HomeViewController+DropDownExtensions.swift */,
+			);
+			path = Venues;
 			sourceTree = "<group>";
 		};
 		1627CC3124EF157900D31F0A /* DropDown */ = {
