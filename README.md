@@ -1,5 +1,5 @@
 
-Welcome to [**Sh--ty Aliens**](https://youtu.be/Ea3H35qwjRE), my brand-new project. It's an allegory for red and green heads or rather buttons. **The Red** is equipped with red twin and dual-eyes button like Aliens. **The Green** consists of green triple-eyes button like Aliens that haven't existed on our planet yet! It's made to be my birthday gift and I did it all by myself with flying colors including this colorful precise cake, though!
+Welcome to [**Ticket Reservation**](https://youtu.be/Ea3H35qwjRE), my brand-new project. It's an app that allows users to book their ticket and know its price at a time, choose a particular venue number, and date of attendance for this event.
 
 ![](https://i.imgur.com/8XQ7f20.gif)
 
