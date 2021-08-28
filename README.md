@@ -1,5 +1,4 @@
-
-Welcome to [**Ticket Reservation**](https://youtu.be/Ea3H35qwjRE), my brand-new project. It's an app that allows users to book their ticket and know its price at a time, choose a particular venue number, and date of attendance for this event.
+Welcome to [**Ticket Reservation**](https://youtu.be/Ea3H35qwjRE), my brand-new project. It's an app that allows users to pick a ticket, and know its price at a time as they can choose a particular venue number, and date of attendance for this event.
 
 ![](https://i.imgur.com/8XQ7f20.gif)
 
